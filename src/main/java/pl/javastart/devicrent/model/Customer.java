@@ -1,4 +1,6 @@
 package pl.javastart.devicrent.model;
+
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -97,4 +99,5 @@ public class Customer {
     @Override
     public int hashCode() {
         return Objects.hash(id, firstName, lastName, pesel, idNumber, rentDevices);
-    }}
+    }
+}

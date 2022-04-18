@@ -1,5 +1,5 @@
 package pl.javastart.devicrent.model;
-import pl.javastart.devicrent.model.Category;
+
 
 import javax.persistence.*;
 import java.util.ArrayList;

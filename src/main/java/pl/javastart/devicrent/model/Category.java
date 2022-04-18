@@ -1,5 +1,6 @@
 package pl.javastart.devicrent.model;
 
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Objects;
@@ -73,5 +74,4 @@ public class Category {
     @Override
     public int hashCode() {
         return Objects.hash(id, name, description, devices);
-    }
-}
+    }}
